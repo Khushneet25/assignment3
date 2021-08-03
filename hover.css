@@ -1,0 +1,32 @@
+
+   .btn{
+    width:100px;
+    height:50px;
+    /* padding:40px; */
+    text-align: center; 
+    color: rgb(231, 84, 84);
+    background-color:rgb(35, 41, 43);
+    border:2px solid rgb(231, 84, 84) ;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    transform: translate(600px,250px);
+   } 
+
+   .btn:hover{
+    background-color: rgb(49, 49, 44);
+    color: white;
+    cursor:pointer;
+    font-family: cursive;
+    border:2px solid rgb(220, 235, 16);
+    box-shadow: 0px 0px 3px rgb(224, 228, 10);
+    border-radius:5px;
+    width:100px;
+    height:50px;
+  
+}
